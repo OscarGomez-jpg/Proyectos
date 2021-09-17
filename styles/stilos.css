@@ -23,5 +23,5 @@ ul{
 .mainButton:hover{
     cursor: pointer;
     box-shadow: 1.5px 1.5px #338041;
-    transform: scale(1.03);
+    transform: scale(1.04);
 }
