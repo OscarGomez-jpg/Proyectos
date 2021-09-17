@@ -9,3 +9,10 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
+
+.mainButton{
+    background-color: #12B330;
+    color:aliceblue;
+    cursor: pointer;
+    border: 0px;
+}
