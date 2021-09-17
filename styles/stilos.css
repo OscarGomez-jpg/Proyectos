@@ -14,9 +14,13 @@ ul{
 .mainButton{
     background-color: #12B330;
     color:aliceblue;
-    cursor: pointer;
     border: 0px;
     padding: 4px 6px;
     border-radius: 9px;
     font-weight: bold;
+    box-shadow: 1.5px 1.5px #338041;
+}
+
+.mainButton:hover{
+    cursor: pointer;
 }
