@@ -11,17 +11,32 @@ ul{
     padding: 10px;
 }
 
-.mainButton{
-    background-color: #12B330;
-    color:aliceblue;
+.button{
+    border-radius: 9px;
     border: 0px;
     padding: 4px 6px;
-    border-radius: 9px;
     font-weight: bold;
 }
 
-.mainButton:hover{
-    cursor: pointer;
-    box-shadow: 1.5px 1.5px #338041;
+.button:hover{
     transform: scale(1.04);
+    cursor: pointer;
+}
+
+.mainButton{
+    background-color: #7FC8A9;
+    color:aliceblue;
+}
+
+.mainButton:hover{
+    box-shadow: 1.5px 1.5px #5F7A61;
+}
+
+.secondaryButton{
+    background-color: #6D8299;
+    color: aliceblue;
+}
+
+.secondaryButton:hover{
+    box-shadow: 1.5px 1.5px #316B83;
 }
