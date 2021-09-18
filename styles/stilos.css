@@ -1,6 +1,12 @@
+body{
+    margin: 0px;
+}
+
 ul{
     list-style: none;
     font-family:Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 .navBar{
@@ -10,6 +16,11 @@ ul{
     background-color: #D5BFBF;
     border-bottom: 1px solid #b19f9f;
     margin-top: 0px;
+}
+
+.navBar > li{
+    display: flex;
+    align-items: center;
 }
 
 .button{
@@ -47,6 +58,9 @@ ul{
     border: 2px solid #8CA1A5;
     border-radius: 8px;
     padding: 1px;
+    width: 300px;
+    display: flex;
+    justify-content:space-between;
 }
 
 .srchBar:focus-within{
