@@ -88,3 +88,24 @@ ul{
     color: #316B83;
 }
 
+.imgsContainer{
+    display: flex;
+    margin: 20px;
+}
+
+.imgContainer{
+    height: 360px;
+    width: 240px;
+    display: flex;
+}
+
+.imgContainer > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.breadContainer{
+    margin: 10px;
+}
+
