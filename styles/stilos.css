@@ -71,6 +71,7 @@ ul{
     border: 0px;
     outline: none;
     border-radius: 8px;
+    width: 300px;
 }
 
 .icon{
@@ -83,5 +84,7 @@ ul{
     height: 100%;
 }
 
-
+.iconoBusqueda:hover{
+    color: #316B83;
+}
 
