@@ -7,9 +7,9 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    margin: 0px;
     background-color: #D5BFBF;
     border-bottom: 1px solid #b19f9f;
+    margin-top: 0px;
 }
 
 .button{
