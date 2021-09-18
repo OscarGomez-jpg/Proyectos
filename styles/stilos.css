@@ -40,3 +40,7 @@ ul{
 .secondaryButton:hover{
     box-shadow: 1.5px 1.5px #316B83;
 }
+
+.srchBar{
+    border: 0px;
+}
