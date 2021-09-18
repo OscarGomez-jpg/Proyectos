@@ -60,12 +60,9 @@ ul{
 }
 
 .icon{
-    height: 50px;
-    display: flex;
+    height: 25px;
+    width: 50px;
 }
 
-.icon > image{
-    object-fit: cover;
-    height: 100%;
-}
+
 
