@@ -13,9 +13,10 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: #D5BFBF;
-    border-bottom: 1px solid #b19f9f;
+    background-color: #C9CCD5;
+    border-bottom: 1px solid  #93B5C6;
     margin-top: 0px;
+    box-shadow: 0px 1px #93B5C6;
 }
 
 .navBar > li{
@@ -26,8 +27,7 @@ ul{
 .button{
     border-radius: 9px;
     border: 0px;
-    padding: 4px 6px;
-    font-weight: bold;
+    padding: 6px 8px;
 }
 
 .button:hover{
@@ -38,19 +38,22 @@ ul{
 .mainButton{
     background-color: #7FC8A9;
     color:aliceblue;
+    font-weight: bolder;
+    width: 130px;
 }
 
 .mainButton:hover{
-    box-shadow: 1.5px 1.5px #5F7A61;
+    box-shadow: 2px 2px #5F7A61;
 }
 
 .secondaryButton{
     background-color: #6D8299;
     color: aliceblue;
+    font-weight: bolder;
 }
 
 .secondaryButton:hover{
-    box-shadow: 1.5px 1.5px #316B83;
+    box-shadow: 2px 2px #316B83;
 }
 
 .srchBar{
@@ -108,4 +111,5 @@ ul{
 .breadContainer{
     margin: 10px;
 }
+
 
