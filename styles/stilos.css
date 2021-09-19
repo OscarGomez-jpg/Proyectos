@@ -103,7 +103,7 @@ ul{
 }
 
 .imgContainer:hover{
-    transform: scale();
+    transform: scale(1.015);
     cursor: pointer;
 }
 
@@ -121,6 +121,7 @@ ul{
     box-shadow: 2px 2px 1px #9D9D9D;
     border-radius: 8px;
 }
+
 
 .dogClass{
     color:white;
