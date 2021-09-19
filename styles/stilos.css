@@ -14,9 +14,8 @@ ul{
     justify-content: space-between;
     padding: 10px;
     background-color: #C9CCD5;
-    border-bottom: 1px solid  #93B5C6;
     margin-top: 0px;
-    box-shadow: 0px 1px #93B5C6;
+    box-shadow: 0px 1px 1px rgb(130, 141, 146);
 }
 
 .navBar > li{
@@ -40,6 +39,7 @@ ul{
     color:aliceblue;
     font-weight: bolder;
     width: 130px;
+    font-size: medium;
 }
 
 .mainButton:hover{
@@ -102,6 +102,11 @@ ul{
     display: flex;
 }
 
+.imgContainer:hover{
+    transform: scale();
+    cursor: pointer;
+}
+
 .imgContainer > img{
     object-fit: cover;
     height: 100%;
@@ -112,9 +117,14 @@ ul{
 
 .breadContainer{
     margin: 10px;
-    background-color: #6D8299;
+    background-color: #334756;
     box-shadow: 2px 2px 1px #9D9D9D;
     border-radius: 8px;
 }
 
-
+.dogClass{
+    color:white;
+    padding:30px;
+    font-weight: bold;
+    font-size: larger;
+}
