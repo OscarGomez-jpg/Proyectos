@@ -102,11 +102,6 @@ ul{
     display: flex;
 }
 
-.imgContainer:hover{
-    transform: scale();
-    cursor: pointer;
-}
-
 .imgContainer > img{
     object-fit: cover;
     height: 100%;
@@ -120,6 +115,11 @@ ul{
     background-color: #334756;
     box-shadow: 2px 2px 1px #9D9D9D;
     border-radius: 8px;
+}
+
+.breadContainer:hover{
+    transform: scale(1.025);
+    cursor: pointer;
 }
 
 .dogClass{
