@@ -106,11 +106,15 @@ ul{
     object-fit: cover;
     height: 100%;
     width: 100%;
-    border-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 .breadContainer{
     margin: 10px;
+    background-color: #6D8299;
+    box-shadow: 2px 2px #316B83;
+    border-radius: 8px;
 }
 
 
