@@ -122,10 +122,14 @@ ul{
     border-radius: 8px;
 }
 
-
 .dogClass{
     color:white;
     padding:30px;
     font-weight: bold;
     font-size: larger;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
 }
