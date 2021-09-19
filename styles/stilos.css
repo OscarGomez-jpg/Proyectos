@@ -113,7 +113,7 @@ ul{
 .breadContainer{
     margin: 10px;
     background-color: #6D8299;
-    box-shadow: 2px 2px #316B83;
+    box-shadow: 2px 2px 1px #9D9D9D;
     border-radius: 8px;
 }
 
