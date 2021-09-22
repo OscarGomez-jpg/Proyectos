@@ -1,4 +1,7 @@
 import './App.css';
+import borderCollie from "./media/borderCollie.jpg"
+import rhodesian from "./media/rhodesian.jpg"
+import dogIcon from "./media/dog-icon.ico"
 
 function App() {
   return (
@@ -7,7 +10,7 @@ function App() {
             <ul class="navBar">
                 <li>
                     <div class="icon">
-                        <img src="media/dog-icon.ico" alt="icono perro"/>
+                        <img src={dogIcon} alt="icono perro"/>
                     </div>
                 </li>
                 <li>
@@ -33,10 +36,10 @@ function App() {
             <section>
                 <h1 class="titulo">Razas de perros</h1>
                 <ul class="imgsContainer">
-                    <cardRazasPerros/>
+                    <cardRazasPerros prop={borderCollie}/>
                     <li class="breadContainer">
                         <div class="imgContainer">
-                            <img src="media/rhodesian.jpg" alt="Foto de un rhodesian"/>
+                            <img src={rhodesian} alt="Foto de un rhodesian"/>
                         </div>
                         <p class="dogClass">
                             Rhodesian
@@ -63,7 +66,7 @@ function cardRazasPerros(prop){
     return(
         <li class="breadContainer">
             <div class="imgContainer">
-                <img src="media/borderCollie.jpg" alt="Foto de un Border Collie"/> 
+                <img src={prop} alt="Foto de un Border Collie"/> 
             </div>
             <p class="dogClass">
                 Border Collie
