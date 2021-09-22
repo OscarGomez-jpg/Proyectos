@@ -36,25 +36,24 @@ function App() {
             <section>
                 <h1 className="titulo">Razas de perros</h1>
                 <ul className="imgsContainer">
-                    <CardRazasPerros img={borderCollie} descrip={"Foto de un border collie"} />
-                    <CardRazasPerros img={rhodesian} descrip={"Foto de un rhodesian"} />
+                    <CardRazasPerros imag={borderCollie} descrpt = {"Foto de un border collie"} name= {"Border Collie"} />
+                    <CardRazasPerros imag={rhodesian} descrpt = {"Foto de un rhodesian"} name= {"Rhodesian"} />
                 </ul>
             </section>
-            <section></section>
         </main>
         <footer></footer>
     </div>
   );
 }
 
-function CardRazasPerros(img, descrip){
+function CardRazasPerros(props){
     return(
         <li className="breadContainer">
             <div className="imgContainer">
-                <img src={img} alt={descrip}/> 
+                <img src={props.imag} alt={props.descrpt} /> 
             </div>
             <p className="dogClass">
-                Border Collie
+                {props.name}
             </p>
             <div className="likeSection">
                 <i className="far fa-heart button"></i>
@@ -62,7 +61,7 @@ function CardRazasPerros(img, descrip){
                 <i className="far fa-comment button"></i>
                 240
                 <i className="far fa-eye button"></i>
-                50000
+                50500
             </div>
         </li>
     )
