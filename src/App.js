@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="shortcut icon" href="media/huella.png" type="fav icon" />
-        <link rel="stylesheet" href="styles/stilos.css">
-        <script src="https://kit.fontawesome.com/1ed5ce33a2.js" crossorigin="anonymous"></script>
-        
-    </head>
-    <body>
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
         <header>
             <ul class="navBar">
                 <li>
@@ -42,7 +35,7 @@
                 <ul class="imgsContainer">
                     <li class="breadContainer">
                         <div class="imgContainer">
-                            <img src="media/borderCollie.jpg" alt="Foto de un Border Collie"> 
+                            <img src="media/borderCollie.jpg" alt="Foto de un Border Collie"/> 
                         </div>
                         <p class="dogClass">
                             Border Collie
@@ -58,7 +51,7 @@
                     </li>
                     <li class="breadContainer">
                         <div class="imgContainer">
-                            <img src="media/rhodesian.jpg" alt="Foto de un rhodesian">
+                            <img src="media/rhodesian.jpg" alt="Foto de un rhodesian"/>
                         </div>
                         <p class="dogClass">
                             Rhodesian
@@ -77,5 +70,8 @@
             <section></section>
         </main>
         <footer></footer>
-    </body>
-</html>
+    </div>
+  );
+}
+
+export default App;
