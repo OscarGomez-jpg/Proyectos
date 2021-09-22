@@ -33,22 +33,7 @@ function App() {
             <section>
                 <h1 class="titulo">Razas de perros</h1>
                 <ul class="imgsContainer">
-                    <li class="breadContainer">
-                        <div class="imgContainer">
-                            <img src="media/borderCollie.jpg" alt="Foto de un Border Collie"/> 
-                        </div>
-                        <p class="dogClass">
-                            Border Collie
-                        </p>
-                        <div class="likeSection">
-                            <i class="far fa-heart button"></i>
-                            1777
-                            <i class="far fa-comment button"></i>
-                            240
-                            <i class="far fa-eye button"></i>
-                            50000
-                        </div>
-                    </li>
+                    <cardRazasPerros/>
                     <li class="breadContainer">
                         <div class="imgContainer">
                             <img src="media/rhodesian.jpg" alt="Foto de un rhodesian"/>
@@ -72,6 +57,27 @@ function App() {
         <footer></footer>
     </div>
   );
+}
+
+function cardRazasPerros(prop){
+    return(
+        <li class="breadContainer">
+            <div class="imgContainer">
+                <img src="media/borderCollie.jpg" alt="Foto de un Border Collie"/> 
+            </div>
+            <p class="dogClass">
+                Border Collie
+            </p>
+            <div class="likeSection">
+                <i class="far fa-heart button"></i>
+                1777
+                <i class="far fa-comment button"></i>
+                240
+                <i class="far fa-eye button"></i>
+                50000
+            </div>
+        </li>
+    )
 }
 
 export default App;
