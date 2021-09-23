@@ -1,4 +1,5 @@
 import CardRazasPerros from 'components/CardRazasPerros';
+import Botones from 'components/Botones';
 import borderCollie from "media/borderCollie.jpg"
 import rhodesian from "media/rhodesian.jpg"
 import dogIcon from "media/dog-icon.ico"
@@ -13,11 +14,7 @@ function Index() {
                         <img src={dogIcon} alt="icono perro"/>
                     </div>
                 </li>
-                <li>
-                    <div className="ButtonContainer">
-                        <button className=" button mainButton"><i className="fas fa-plus"></i> Nuevo Post</button>
-                    </div>
-                </li>
+                <Botones icono={<i className="fas fa-plus"></i>} texto={" Nuevo Post"} />
                 <li>
                     <div className="srchBar">
                         <input type="text" placeholder="Ingrese la raza..." />
