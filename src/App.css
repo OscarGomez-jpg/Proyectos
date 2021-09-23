@@ -50,6 +50,7 @@ ul{
   background-color: #6D8299;
   color: aliceblue;
   font-weight: bolder;
+  margin: 5px;
 }
 
 .secondaryButton:hover{

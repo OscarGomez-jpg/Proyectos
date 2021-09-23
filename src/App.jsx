@@ -1,4 +1,5 @@
 import './App.css';
+import CardRazasPerros from './components/CardRazasPerros';
 import borderCollie from "./media/borderCollie.jpg"
 import rhodesian from "./media/rhodesian.jpg"
 import dogIcon from "./media/dog-icon.ico"
@@ -46,26 +47,7 @@ function App() {
   );
 }
 
-function CardRazasPerros(props){
-    return(
-        <li className="breadContainer">
-            <div className="imgContainer">
-                <img src={props.imag} alt={props.descrpt} /> 
-            </div>
-            <p className="dogClass">
-                {props.name}
-            </p>
-            <div className="likeSection">
-                <i className="far fa-heart button"></i>
-                1777
-                <i className="far fa-comment button"></i>
-                240
-                <i className="far fa-eye button"></i>
-                50500
-            </div>
-        </li>
-    )
-}
+
 
 
 export default App;
