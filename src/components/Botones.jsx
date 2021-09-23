@@ -1,8 +1,10 @@
-function Botones({texto,icono, typeButton}) {
-    return(
+import React from 'react'
+
+const Botones = ({texto, icono}) => {
+    return (
         <li>
             <div className="ButtonContainer">
-                <button className=" button "{...typeButton}>{icono}{texto}</button>
+                <button className="button mainButton">{icono}{texto}</button>
             </div>
         </li>
     )
