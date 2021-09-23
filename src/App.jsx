@@ -1,8 +1,8 @@
-import './App.css';
-import CardRazasPerros from './components/CardRazasPerros';
-import borderCollie from "./media/borderCollie.jpg"
-import rhodesian from "./media/rhodesian.jpg"
-import dogIcon from "./media/dog-icon.ico"
+import 'App.css';
+import CardRazasPerros from 'components/CardRazasPerros';
+import borderCollie from "media/borderCollie.jpg"
+import rhodesian from "media/rhodesian.jpg"
+import dogIcon from "media/dog-icon.ico"
 
 function App() {
   return (
