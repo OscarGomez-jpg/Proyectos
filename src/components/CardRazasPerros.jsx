@@ -1,9 +1,13 @@
+import {Link} from 'react-router-dom';
+
 function CardRazasPerros({imag, descrpt, name}){
     return(
         <li className="breadContainer">
-            <div className="imgContainer">
-                <img src={imag} alt={descrpt} /> 
-            </div>
+            <Link to='/RhodesianInfo'>
+                <div className="imgContainer">
+                    <img src={imag} alt={descrpt} /> 
+                </div>
+            </Link>
             <p className="dogClass">
                 {name}
             </p>

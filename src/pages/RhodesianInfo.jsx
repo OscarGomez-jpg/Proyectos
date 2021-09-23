@@ -5,7 +5,7 @@ function RhodesianInfo() {
         <div>
             Hola
         </div>
-    )
+    );
 }
 
 export default RhodesianInfo;
