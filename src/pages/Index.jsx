@@ -1,34 +1,13 @@
 import CardRazasPerros from 'components/CardRazasPerros';
-import Botones from 'components/Botones';
+import Header from 'components/Header';
 import borderCollie from "media/borderCollie.jpg"
 import rhodesian from "media/rhodesian.jpg"
-import dogIcon from "media/dog-icon.ico"
+
 
 function Index() {
     return(
         <div>
-            <header>
-            <ul className="navBar">
-                <li>
-                    <div className="icon">
-                        <img src={dogIcon} alt="icono perro"/>
-                    </div>
-                </li>
-                <Botones icono={<i className="fas fa-plus"></i>} texto={" Nuevo Post"} />
-                <li>
-                    <div className="srchBar">
-                        <input type="text" placeholder="Ingrese la raza..." />
-                        <i className="fas fa-search button iconoBusqueda"></i>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <button className=" button secondaryButton">Iniciar Sesión</button>
-                        <button className=" button secondaryButton">Registrarse</button>
-                    </div>
-                </li>
-            </ul>     
-            </header>
+            <Header />
             <main>
                 <section>
                     <h1 className="titulo">Razas de perros</h1>
