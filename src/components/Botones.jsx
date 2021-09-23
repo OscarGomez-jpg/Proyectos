@@ -1,8 +1,8 @@
-function Botones({texto,icono}) {
+function Botones({texto,icono, typeButton}) {
     return(
         <li>
             <div className="ButtonContainer">
-                <button className=" button mainButton">{icono}{texto}</button>
+                <button className=" button "{...typeButton}>{icono}{texto}</button>
             </div>
         </li>
     )

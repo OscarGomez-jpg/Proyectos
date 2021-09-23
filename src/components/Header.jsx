@@ -10,7 +10,7 @@ const Header = () =>{
                         <img src={dogIcon} alt="icono perro"/>
                     </div>
                 </li>
-                <Botones icono={<i className="fas fa-plus"></i>} texto={" Nuevo Post"} />
+                <Botones icono={<i className="fas fa-plus"></i>} texto={" Nuevo Post"} typeButton={"mainButton"} />
                 <li>
                     <div className="srchBar">
                         <input type="text" placeholder="Ingrese la raza..." />
