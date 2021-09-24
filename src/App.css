@@ -95,6 +95,7 @@ ul{
 .imgsContainer{
   display: flex;
   margin: 20px;
+  flex-wrap: wrap;
 }
 
 .imgContainer{
@@ -158,8 +159,10 @@ ul{
 
 .mainContainer > main{
   height: 100%;
+  overflow-y: scroll;
 }
 
 .mainContainer > footer{
   background-color: red;
+  padding: 10px;
 }
