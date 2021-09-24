@@ -1,10 +1,7 @@
 
-
 function RhodesianInfo() {
     return(
-        <div>
-            Hola
-        </div>
+        <div>Información de los Rhodeasian</div>
     );
 }
 
